@@ -49,7 +49,7 @@ def Go_bots():
 		all_tweets_text.append(m_a)
 		s = api.update_status(m_a)
 #		nap = randint(1, 60)
-#		time.sleep(100)
+		time.sleep(50)
 	
 	for tweets in search_result_hashtag:
 		for tweet in tweets:
@@ -58,7 +58,7 @@ def Go_bots():
 			all_tweets_text.append(m)
 	##		s = api.update_status(m)
 	#		nap = randint(1, 60)
-	#		time.sleep(100)
+			time.sleep(50)
 
 ### Streaming part commented
 
