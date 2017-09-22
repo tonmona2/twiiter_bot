@@ -24,7 +24,7 @@ There are two main functionality of the bot:
 
 
 ### 1. Responding to links:
-url: /respond-to-links
+url: `/respond-to-links`
 
 parameters:
 
@@ -34,7 +34,7 @@ parameters:
 example: goto `localhost:5000/respond-to-links?article_links=fakenews.example.com&article_links=fakenews.example.org&response="Your link is a fake news site!"`
 
 ### 2. Get all tweets with hashtag
-url: /hashtag-tweets
+url: `/hashtag-tweets`
 
 parameters:
 
